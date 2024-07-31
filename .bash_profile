@@ -1,3 +1,4 @@
+
 echo "Hello $(whoami)"
 
 export COURSE_ID="DevOpsTheHardWay"
