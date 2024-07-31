@@ -1,9 +1,6 @@
-
 echo "Hello $(whoami)"
 
-
 export COURSE_ID="DevOpsTheHardWay"
-
 
 if [ -f ~/.token ]; then
     if [ $(stat -c "%a" ~/.token) -ne 600 ]; then
@@ -35,4 +32,3 @@ PID=$(lsof -t -i:8080)
 if [ -n "$PID" ]; then
     kill -9 $PID
 fi
-ion here...
