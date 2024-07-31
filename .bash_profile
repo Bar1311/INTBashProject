@@ -1,4 +1,4 @@
-# your solut# Greet the user
+
 echo "Hello $(whoami)"
 
 # Define an environment variable
